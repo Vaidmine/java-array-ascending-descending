@@ -12,6 +12,7 @@ public class ArrayAscendingDescending {
 //kaip atspausdinti visus elementus didejimo / mazejimo tvarka?
 
         int[] masyvas = {15, 42, 15, 98, -2, -47, 10, 3, -14, 36};
+        
         int temp = 0;
         
         System.out.println();
@@ -52,8 +53,11 @@ public class ArrayAscendingDescending {
         System.out.println();
         System.out.println("Surusiuotas sarasas mazejimo tvarka: ");
         for (int i = 0; i <masyvas.length; i++) {     
-            System.out.print(masyvas[i] + " ");    
+            System.out.print(masyvas[i] + " "); 
+            
         }  
+        System.out.println();
+        System.out.println();
     }
     
 }
